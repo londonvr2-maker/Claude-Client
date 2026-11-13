@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "bigback",
+  "version": "${version}",
+  "name": "BigBack Client",
+  "description": "BigBack Client: modules, base finders and a clean gradient ClickGUI.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.bigback.client.HackClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
